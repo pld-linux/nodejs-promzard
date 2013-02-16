@@ -10,7 +10,8 @@ Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
 # Source0-md5:	313e53a75fc058a2735dd3d5fc28b15f
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
-Requires:	nodejs-read >= 1.0.0, nodejs-read < 2.0.0
+Requires:	nodejs-read >= 1.0.0
+Requires:	nodejs-read < 2.0.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
