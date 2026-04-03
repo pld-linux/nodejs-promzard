@@ -2,7 +2,7 @@
 Summary:	prompting wizardly
 Name:		nodejs-%{pkg}
 Version:	0.2.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/promzard
